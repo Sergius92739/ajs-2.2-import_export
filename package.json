@@ -4,7 +4,8 @@
   "description": "ajs homework import/export",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
+    "watch": "webpack --mode development --watch",
     "build": "webpack --mode production",
     "lint": "eslint .",
     "test": "jest",
